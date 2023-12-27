@@ -2,8 +2,4 @@
 #A bash Script that uses ssh to connect to my server using
 #the private key ~/.ssh/school with the user ubuntu.
 
-server_ip="34.229.56.22"
-user="ubuntu"
-private_key_path="~/.ssh/school"
-
-ssh -i "$private_key_path" $user@$server_ip
+ssh -i ~/.ssh/school ubuntu@34.229.56.22
