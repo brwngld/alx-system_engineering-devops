@@ -1,11 +1,4 @@
 #!/bin/bash
 # A bash Script that crates and RSA key pair
-key_name="school"
-passphrase="betty"
-key_bits=4096
 
-ssh-keygen -t rsa -b $key_bits -f "$key_name" -N "$passphrase"
-
-echo "RSA key pair created successfully."
-echo "Private key file: $key_name"
-echo "Public key file: $key_name.pub"
+ssh-keygen -b 4096 -f school -t rsa -N betty
