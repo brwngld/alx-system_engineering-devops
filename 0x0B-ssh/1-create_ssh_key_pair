@@ -1,4 +1,4 @@
 #!/bin/bash
-# A bash Script that crates and RSA key pair
+# A Bash script that creates an RSA key pair
 
-ssh-keygen -b 4096 -f school -t rsa -N betty
+ssh-keygen -b 4096 -f school -t rsa -Nbetty
