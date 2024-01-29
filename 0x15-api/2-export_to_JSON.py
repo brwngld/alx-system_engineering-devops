@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Script to exports to-do list information for a given employee ID to JSON format."""
+"""Script to exports to-do list information for a given
+employee ID to JSON format."""
+
 import json
 import requests
 import sys
